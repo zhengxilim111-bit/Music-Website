@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jasmine Ng | Piano Lessons in Singapore</title>
+  <meta name="description" content="Piano lessons in Singapore for children and adults, all levels. Schedule a lesson with Jasmine Ng.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top">
+  <a href="#home" class="logo">Jasmine Ng</a>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#lessons">Lessons</a>
+    <a href="#certificates">Certificates</a>
+    <a href="#book" class="btn small">Book</a>
+  </nav>
+</header>
+
+<main>
+  <!-- HERO: headline sits on five staff lines -->
+  <section id="home" class="hero">
+    <div class="staff">
+      <h1>Piano lessons that build real confidence.</h1>
+    </div>
+    <p class="lead">Friendly, structured lessons for children and adults in Singapore. Beginners welcome.</p>
+    <a href="#book" class="btn">Schedule a lesson</a>
+  </section>
+
+  <!-- INFOGRAPHIC NUMBERS: replace with her real figures -->
+  <section class="stats" aria-label="At a glance">
+    <div><strong>10+</strong><span>years teaching</span></div>
+    <div><strong>80+</strong><span>students taught</span></div>
+    <div><strong>Grade 8</strong><span>ABRSM, Distinction</span></div>
+    <div><strong>5 to 70</strong><span>ages welcome</span></div>
+  </section>
+
+  <section id="about" class="split">
+    <img src="images/jasmine.jpg" alt="Jasmine Ng at the piano" width="480" height="560">
+    <div>
+      <h2>About me</h2>
+      <p>Write 2 to 3 short paragraphs here: your training, how you teach, and what students can expect. Keep it warm and specific.</p>
+      <p>Mention where lessons happen (your studio, student's home or online) and your area in Singapore.</p>
+    </div>
+  </section>
+
+  <section id="lessons">
+    <h2>Lessons</h2>
+    <div class="grid">
+      <article>
+        <h3>Beginners</h3>
+        <p>Ages 5 and up. Reading music, posture and first songs.</p>
+        <p class="meta">30 min weekly</p>
+      </article>
+      <article>
+        <h3>Exam preparation</h3>
+        <p>ABRSM and Trinity, Grades 1 to 8, including theory.</p>
+        <p class="meta">45 to 60 min weekly</p>
+      </article>
+      <article>
+        <h3>Adult learners</h3>
+        <p>Relaxed pace, songs you actually want to play.</p>
+        <p class="meta">45 min weekly</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="journey">
+    <h2>My musical journey</h2>
+    <ol class="timeline">
+      <li><b>2008</b> Started piano at age 6</li>
+      <li><b>2016</b> ABRSM Grade 8, Distinction</li>
+      <li><b>2019</b> Diploma / degree (edit this)</li>
+      <li><b>2021</b> Began teaching full time</li>
+    </ol>
+  </section>
+
+  <section id="certificates">
+    <h2>Certificates</h2>
+    <div class="grid certs">
+      <figure><img src="images/cert1.jpg" alt="ABRSM Grade 8 certificate" loading="lazy"><figcaption>ABRSM Grade 8</figcaption></figure>
+      <figure><img src="images/cert2.jpg" alt="Teaching diploma certificate" loading="lazy"><figcaption>Teaching diploma</figcaption></figure>
+      <figure><img src="images/cert3.jpg" alt="Performance award" loading="lazy"><figcaption>Performance award</figcaption></figure>
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <h2>What parents say</h2>
+    <blockquote>Replace with a real quote from a parent or student.<cite>Parent of a Grade 3 student</cite></blockquote>
+  </section>
+
+  <section id="book" class="book">
+    <h2>Schedule a lesson</h2>
+    <p>Pick a time that suits you. You will get an email confirmation straight away.</p>
+
+    <!-- ============================================================
+         PASTE AREA: put your Cal.com inline embed code on the empty
+         line between the two lines below. Nothing else needs editing.
+         ============================================================ -->
+    <div class="cal-embed">
+      <!-- >>> PASTE CAL.COM EMBED CODE BELOW THIS LINE >>> -->
+
+      <!-- <<< PASTE CAL.COM EMBED CODE ABOVE THIS LINE <<< -->
+    </div>
+
+    <p class="alt">Calendar not loading? <a href="https://cal.com/jasmine-ng-kzb5og/schedule-a-lesson">Click here to book a lesson</a></p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Have a question first?</h2>
+    <p>Send a message and I will reply within a day.</p>
+    <!-- Netlify Forms: works automatically once deployed -->
+    <form name="trial" method="POST" data-netlify="true">
+      <input type="hidden" name="form-name" value="trial">
+      <label>Your name <input type="text" name="name" required></label>
+      <label>Email <input type="email" name="email" required></label>
+      <label>Student's age and level <input type="text" name="student"></label>
+      <label>Message <textarea name="message" rows="4"></textarea></label>
+      <button type="submit" class="btn">Send message</button>
+    </form>
+    <p class="alt">Prefer WhatsApp? <a href="https://wa.me/6591234567">Message me</a></p>
+  </section>
+</main>
+
+<footer>&copy; 2026 Jasmine Ng Music</footer>
+</body>
+</html>
